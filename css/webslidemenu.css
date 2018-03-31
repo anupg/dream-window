@@ -1,0 +1,272 @@
+/*------------------------------------ Desktop CSS ---------------------------------------------*/
+
+.wsmenu-list {
+  text-align: left;
+  margin: 0 auto 0 auto;
+  width:auto;
+  display: table;
+  padding: 0px;
+}
+
+.wsmenu-list>li {
+  text-align: center;
+  display: table-cell;
+}
+
+.wsmenu-list li:first-child a {
+  -webkit-border-radius: 2px 2px 2px 2px;
+  -moz-border-radius: 2px 2px 2px 2px;
+  border-radius: 2px 2px 2px 2px;
+}
+
+.wsmenu-list li:last-child a {
+  -webkit-border-radius: 2px 2px 2px 2px;
+  -moz-border-radius: 2px 2px 2px 2px;
+  border-radius: 2px 2px 2px 2px;
+  border-right: 0px solid;
+}
+
+
+
+.wsmenu-list>li>a {
+  display: block;
+  color: #E5E5E5;
+  padding: 0px 14px;
+  line-height: 48px;
+  text-decoration: none;
+  position: relative;
+  text-align:left;
+}
+
+.wsmenu-list li a:hover .arrow:after {
+  border-top-color: #b3b3b3
+}
+
+.wsmenu-list li a.active .arrow:after {
+  border-top-color: #b3b3b3
+}
+
+.wsmenu-list li:hover>a .arrow:after {
+  border-top-color: #b3b3b3
+}
+
+/*For megamenu desktop */
+
+.wsmenu-list li:hover .megamenu {
+	display:block;
+}
+
+.megamenu {
+  width: 100%;
+  left: 0px;
+  position: absolute;
+  top: 53px;
+  color: #000;
+  z-index: 1000;
+  margin: 0px;
+  text-align: left;
+  padding:14px 0;
+  font-size: 14px;
+  border: solid 1px #f0eae0;
+  background-color: #f0eae0;
+  /*opacity: 0;*/
+  display:none;
+  -o-transform-origin: 0% 0%;
+  -ms-transform-origin: 0% 0%;
+  -moz-transform-origin: 0% 0%;
+  -webkit-transform-origin: 0% 0%;
+  -o-transition: -o-transform 0.3s, opacity 0.3s;
+  -ms-transition: -ms-transform 0.3s, opacity 0.3s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+}
+.nav_left ul li:nth-child(4) .megamenu {
+    width: 431px;
+    right: 0px;
+	left:auto;
+}
+
+.megamenu .title {
+  /*border-bottom: 1px solid #CCC;*/	
+  font-size: 14px;
+  padding: 9px 5px 9px 0px;
+  color: #52575d;
+  margin: 0px 0px 7px 0px;
+  text-align: left;
+  font-family: 'PT Sans', sans-serif;
+}
+.boder-line-menu { position:relative;}
+.boder-line-menu::before {
+	position:absolute;
+	background-color:#CCC;
+	width:1px;
+	height:80%;
+	right:0;
+	top:35px;
+	content:"";
+	}
+
+
+.wsmenu-list .megamenu li:hover>a {
+  background: transparent !important;
+}
+
+.wsmenu-list .megamenu li a:hover {
+  background: transparent !important;
+  text-decoration: underline;
+}
+
+.wsmenu-list .megamenu li .fa {
+  margin-right: 5px;
+  text-align: center;
+  width: 18px;
+}
+
+
+/*Animation*/
+
+/*.wsmenu-list li>.megamenu {
+  transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transform: rotateX(-75deg);
+  -o-transform: rotateX(-75deg);
+  -moz-transform: rotateX(-75deg);
+  -webkit-transform: rotateX(-75deg);
+  visibility: hidden;
+}
+
+.wsmenu-list li:hover>.megamenu {
+  transform: rotateX(0deg);
+  -o-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  -webkit-transform: rotateX(0deg);
+  opacity: 1;
+  visibility: visible;
+}
+*/
+
+/* Default Theme */
+
+#nav_bg .nav_left .wsmenu-list li:hover>a {
+  text-decoration: none;
+}
+
+#nav_bg .nav_left .wsmenu-list>li>a:hover {
+  text-decoration: none;
+}
+
+#nav_bg .nav_left .wsmenu-list>li>a.active {
+  text-decoration: none;
+}
+
+#nav_bg .nav_left .typography-text {
+  padding: 0px 0px;
+  font-size: 15px;
+  position:relative;
+}
+#nav_bg .nav_left .typography-text::before {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #ccc;
+    content: "";
+    top: 35px;
+    height: 1px;
+}
+#nav_bg .nav_left .typography-text ul{ padding-left:0;}
+#nav_bg .nav_left .typography-text ul li {
+  display: block;
+  padding: 2px 0px;
+  line-height: 22px;
+}
+
+#nav_bg .nav_left .typography-text ul li a {
+  color: #656565;
+  font-size:14px;
+  line-height:normal;
+  text-transform:none;
+}
+#nav_bg .nav_left .typography-text ul li a:hover{ color:#000;}
+
+#nav_bg .nav_left .typography-text ul li:nth-child(3){ border:none;}
+#nav_bg .nav_left .typography-text ul li:nth-child(1)::before,
+#nav_bg .nav_left .typography-text ul li:nth-child(5)::before{ display:none;}
+
+#nav_bg .nav_left .typography-text ul li:nth-child(1), 
+#nav_bg .nav_left .typography-text ul li:nth-child(2), 
+#nav_bg .nav_left .typography-text ul li:nth-child(5) {
+    margin-top: 0;
+}
+
+#nav_bg .nav_right .typography-text{ text-align:center;}
+#nav_bg .nav_right ul li:nth-child(3) .megamenu { background-color:#fff; top:66px;}
+#nav_bg .nav_right ul li:nth-child(2) .megamenu { background-color:#fff; top:66px; width:360px; padding:0;}
+#nav_bg .nav_right ul li:nth-child(3) .megamenu .typography-text a i{ padding-right:10px;}
+#nav_bg .nav_right .typography-text a { text-align:center; font-size:16px; color:#484b4e; text-decoration:none; text-transform:inherit;}
+
+
+@media only screen and (min-width:991px) and (max-width:1064px) {
+ 
+  .wsmenu {
+    font-size: 13px;
+    position: relative;
+  }
+ 
+  .wsmenu-list li a {
+    white-space: nowrap;
+    padding-left: 4px;
+    padding-right: 10px;
+  }
+  
+}
+
+@media only screen and (min-width: 991px) {
+  .wsmenu-list li:hover>.megamenu {
+    display: block;
+  }
+}
+
+/*------------------------------------ Mobile CSS ---------------------------------------------*/
+
+@media only screen and (max-width: 991px) {
+  
+  .wsmenu-list .megamenu {
+    display: none;
+    position: relative;
+  }
+  .wsmenu-list li:hover .megamenu {
+   display: none;
+  }
+
+.mobile_nav{ width:18%;} 
+.navbar{ min-height:auto;} 
+ 
+#nav_bg li {
+	padding: 5px 16px;
+}
+#nav_bg li a, 
+#nav_inner_bg li a,
+#nav_bg .nav_right ul li a { font-size:12px; line-height:14px; padding:0; margin:0;}
+#nav_bg .nav_right ul li:nth-child(4) {
+    padding: 8px 15px;
+
+}
+
+#nav_bg .nav_left ul li:nth-child(1), 
+#nav_bg .nav_left ul li:nth-child(2), 
+#nav_bg .nav_left ul li:nth-child(5) {
+    padding: 10px 15px;
+}
+
+#nav_bg .nav_left ul li:nth-child(5) a { margin-left: 6px;}
+#nav_bg .nav_left ul li:nth-child(1)::before,
+#nav_bg .nav_left ul li:nth-child(5)::before { top:10px;}
+ul.footer-nav li { padding: 15px 15px;}
+
+}
+
+@media screen and (max-width:767px) {
+	
+}
