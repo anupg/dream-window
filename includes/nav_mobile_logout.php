@@ -4,7 +4,7 @@
 <section class="nav-bar-desktop">
 <div class="navbar_wrap">
  <nav class="navbar navbar-default" id="nav_bg">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="mobile_nav"> <a href="#" class="navbar_brand2"><img src="images/logo.png"  class="img-responsive"></a> </div>
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -149,7 +149,7 @@
                 </div>
                   
                   </li>
-                <li><a href="#"><span class="card-item">10</span><img src="images/top-busket.png" class="img-responsive" alt="top-busket"/></a></li>
+                <li><a href="#"><img src="images/top-busket.png" class="img-responsive" alt="top-busket"/></a></li>
               </ul>
             </div>
           </div>
@@ -284,8 +284,8 @@
               <ul class="nav navbar-nav navbar-right wsmenu-list">
                 <li><a href="#"><span class="menu-icon"><i class="fa fa-home" aria-hidden="true"></i></span></a></li>
                 <li><a href="#"><span class="menu-icon"><i class="fa fa-heart" aria-hidden="true"></i></span></a></li>
-                <li><a href="#" id="my_account_open"><span class="menu-icon"><i class="fa fa-truck" aria-hidden="true"></i></span></a></li>
-                <li><a href="#" id="mobile_login_open"><span class="menu-icon"><i class="fa fa-user" aria-hidden="true"></i></span></a></li>
+                <li><a href="#"><span class="menu-icon"><i class="fa fa-truck" aria-hidden="true"></i></span></a></li>
+                <li><a href="#" id="mobile_logout_open"><span class="menu-icon"><i class="fa fa-user" aria-hidden="true"></i></span></a></li>
                 <li><a href="#"><img src="images/top-busket.png" class="img-responsive" alt="top-busket"/></a></li>
                 <li><a href="#" id="open-two"><i class="fa fa-search" aria-hidden="true"></i></a></li>
 
@@ -326,7 +326,7 @@
                   </div>
       </div> 
       
-      <!--login-form-mobile-->
+      <!--login-form-->
        <div id="mobile_login" class="megamenu clearfix">
             <div class="card card-container">
             <div class="user-name"><h3>Login</h3></div>
@@ -367,26 +367,19 @@
             
         </div>
                 </div> 
-      
-      
-      <!--my-account-mobile-->
-       <div id="my_account" class="megamenu clearfix">
-                  <div class="typography-text clearfix">
-                     <div class="loginmodal-container">
-                       <h3>Hi, je wilt weten waar je bestelling is?</h3>
-                        <div class="mobile-search">
-                   <div class="input-group custom-search-form">
-                              <input class="form-control" placeholder="Productnaam of nummer" type="text">
-                              <span class="input-group-btn">
-                              <button class="btn" type="button">Ik ben hier</i>
-                             </button>
-                             </span>
-                             </div><!-- /input-group -->
-                  </div>
-                      </div>
-                  </div>
-                </div>
-                
+       
+       
+       <!--Logout-form-->
+       <div id="mobile_logout" class="megamenu clearfix">
+            <div class="card card-container">
+            <div class="user-name"><h3>Logout</h3></div>
+            <form class="form-signin">
+                <button class="btn btn-block btn-logout" type="submit">Logout</button>
+            </form><!-- /form -->
+
+        </div>
+                </div>                     
+                  
     </nav>
  </div>
  
