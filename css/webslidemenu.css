@@ -219,6 +219,25 @@
     padding-left: 4px;
     padding-right: 10px;
   }
+
+#nav_bg li {
+    padding: 12px 8px;
+}
+
+.mobile_nav { width:auto; left: 15px; top: 10px;}
+
+.mobile_nav a img{
+    width: 60%;
+    display: inline-block;
+}
+
+#nav_bg .nav_right ul li:nth-child(4) {
+    background-color: #f9f6f3;
+    padding: 18px 25px;
+}
+
+ul.footer-nav li{ padding: 25px 40px;}
+#wsftoggleopen{ display:none;}
   
 }
 
@@ -226,6 +245,7 @@
   .wsmenu-list li:hover>.megamenu {
     display: block;
   }
+ 
 }
 
 /*------------------------------------ Mobile CSS ---------------------------------------------*/
@@ -240,18 +260,22 @@
    display: none;
   }
 
-.mobile_nav{ width:18%;} 
-.navbar{ min-height:auto;} 
+.mobile_nav{ width:auto;} 
+.mobile_nav a img {
+    width: 70%;
+    display: inline-block;
+}
+
+#nav_bg.navbar{ min-height:auto;} 
  
 #nav_bg li {
-	padding: 5px 16px;
+	padding: 5px 8px;
 }
 #nav_bg li a, 
 #nav_inner_bg li a,
 #nav_bg .nav_right ul li a { font-size:12px; line-height:14px; padding:0; margin:0;}
 #nav_bg .nav_right ul li:nth-child(4) {
     padding: 8px 15px;
-
 }
 
 #nav_bg .nav_left ul li:nth-child(1), 
@@ -265,12 +289,14 @@
 #nav_bg .nav_left ul li:nth-child(5)::before { top:10px;}
 ul.footer-nav li { padding: 15px 15px;}
 
+#wsftoggleopen{ display:none;}
+
 }
 
 @media screen and (min-width:767px) and (max-width:900px) { 
 
 #nav_bg li a, #nav_inner_bg li a, #nav_bg .nav_right ul li a {
-			font-size: 10px;
+			font-size: 12px;
 			line-height: 14px;
 			padding: 0;
 			margin: 0;
@@ -316,10 +342,12 @@ ul.footer-nav li { padding: 15px 15px;}
     box-shadow: none;
     position: absolute;
     background: #fdfdfd;
-    width:276px;
+    width:auto;
     padding: 0 0;
 	border: 1px solid #78808b;
 }
+
+#wsftoggleopen{ display:none;}
 
 #box-two, #mobile_login{ display:none;}
 #mobile_login.megamenu,

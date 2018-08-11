@@ -1763,6 +1763,78 @@ color:$nav-hover-color;
 	padding: 15px 0;
 }
 
+/*Edite-by-Debdas*/
+.menu-tab ul{ padding-left:0;}
+.menu-tab  ul li .panel {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+.menu-tab .panel-heading {
+    background-color: #f8f6fa;
+}
+
+.menu-tab .panel-heading h3 {
+	color: #42464c;
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-family: 'PT Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+#nav_bg .menu-tab  ul li { padding: 0 0; border-bottom: 1px solid #ccc8c2;}
+.menu-tab ul li .panel-body {
+    padding: 0;
+}
+
+#nav_bg .menu-tab ul li .panel-body ul li{ padding:5px 15px; border-bottom:none; font-size: 12px;}
+#nav_bg .menu-tab ul li .panel-body ul li a { font-size: 12px;}
+
+#nav_bg .nav_left ul.nav-tabs li{ padding:0;}
+#nav_bg .nav_left ul.nav-tabs li:nth-child(1),
+#nav_bg .nav_left ul.nav-tabs li:nth-child(2){ padding:0;}
+#nav_bg .nav_left ul.nav-tabs li:nth-child(1) a {
+    padding: 17px 10px;
+
+}
+
+#nav_bg .nav_left ul.nav-tabs li a { padding: 10px 10px;}
+.menu-tab .panel{ border:0;}
+.menu-tab .sub-accordion { padding:0;}
+.menu-tab #accordion a:hover, .menu-tab #accordion a:focus{ text-decoration:none;}
+.menu-tab .sub-accordion .sub-accordion { padding:0 0;}
+#nav_bg .menu-tab .sub-accordion .sub-accordion ul li { padding: 10px 15px;}
+#nav_bg .menu-tab .sub-accordion .sub-accordion ul li a{ text-decoration:none;}
+#nav_bg .menu-tab .sub-accordion .sub-accordion ul li:last-child{ border-bottom:none;}
+
+.menu-tab .panel-group .panel + .panel {
+    margin-top: 0px;
+    border-top: 1px solid #ccc;
+}
+.menu-tab .panel-group { margin-bottom:0;}
+.menu-tab .panel-body {
+    padding: 0;
+}
+
+#nav_bg .menu-tab .panel-body .panel-default ul li { padding: 10px 15px}
+
+.menu-tab .panel-default > .panel-heading.panel-clr {
+    background-color: #f0eae0;
+}
+
+.menu-tab .panel-default > .panel-heading.panel-clr.on {
+    background-color: #f0f0ec;
+}
+
+.menu-tab .panel-default > .panel-heading a {
+    color: #42464c;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-family: 'PT Sans', sans-serif;
+    text-transform: uppercase;
+}
+#nav_bg .menu-tab .panel-body .panel-default ul li a { font-size:12px; text-transform:none;}
+
+
 /*-==============================
 		@media Stylesheet
 ================================*/
@@ -1863,6 +1935,9 @@ color:$nav-hover-color;
 
 @media screen and (max-width:767px){
 .login-form-banner{ display:none;}
+#nav_bg .navbar-nav{ margin:0;}
+.sidenav .closebtn { top: 5px;}
+#nav_bg { box-shadow:none;}
 }
 
 

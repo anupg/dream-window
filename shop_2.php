@@ -13,6 +13,7 @@
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
         <div class="accordion-menu-left">
           <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          
             <div class="panel panel-default">
               <div class="panel-heading panel-clr" role="tab" id="headingOne">
                 <h4 class="panel-title"> 
@@ -84,6 +85,7 @@
                 </div>
               </div>
             </div>
+            
             <div class="panel panel-default">
               <div class="panel-heading panel-clr" role="tab" id="headingTwo">
                 <h4 class="panel-title"> <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> <i class="more-less glyphicon glyphicon-plus"></i> OP Maat Gemaakt </a> </h4>

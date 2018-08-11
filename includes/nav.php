@@ -265,6 +265,7 @@
 
 <!--tab-view-menu-end-->
 
+
 <!--mobile-menu-start-->
 <section class="mobile-nav" style="display:none;">
 <div class="navbar_wrap">
@@ -299,7 +300,7 @@
             <div class="nav_left">
               <ul class="nav navbar-nav wsmenu-list">
                 
-                <li class="active"><a href="#" onclick="openNav_3()">SHOP</a></li>
+                <li class="active"><a href="#" onclick="openNav_3()">SHOP Mob</a></li>
                 <li><a href="#" onclick="openNav_4()">Diensten & <br/>Instructies</a></li>
                 <li><a href="#" onclick="openNav_5()">Contact <br/> & Service</a></li>
                 

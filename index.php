@@ -12,7 +12,7 @@
 </div>
 
 <!--header-part-start-->
-<?php include("includes/nav.php"); ?>
+<?php include("includes/nav_tab.php"); ?>
 <!--header-part-end-->
 
  <div class="bg">
@@ -79,7 +79,7 @@
 
 
 <!--footer-part-->
-<?php include("includes/footer_home.php"); ?>
+<?php include("includes/footer.php"); ?>
 
 </body>
 </html>
